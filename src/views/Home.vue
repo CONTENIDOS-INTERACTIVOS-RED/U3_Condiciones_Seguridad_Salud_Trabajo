@@ -22,12 +22,11 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 En un entorno laboral en constante cambio, garantizar la seguridad y salud en el trabajo es esencial para el desarrollo sostenible de las organizaciones. Esta unidad aborda el marco normativo y técnico en Colombia, proporcionando herramientas clave para identificar, evaluar y gestionar riesgos laborales. Además, promueve una cultura de prevención alineada con las normas nacionales e internacionales, integrando a todos los niveles de la organización en la construcción de ambientes laborales seguros y saludables.
-                br
-                br
-                |#[b ¡Prepárate para liderar iniciativas que transformen la seguridad en tu entorno profesional!]
+              p.descripcion.mb-4 Desde los desafíos del mundo laboral actual, la gestión efectiva de la seguridad y salud en el trabajo se presenta como un componente clave para el bienestar y la productividad. En esta unidad, exploraremos estrategias para implementar un Sistema de Gestión de Seguridad y Salud en el Trabajo (SG-SST), con enfoque en el contexto colombiano y alineado a estándares como la norma ISO 45001.
 
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡El éxito está en cada esfuerzo que haces hoy!
+              p.descripcion.mb-4 Los temas abordarán desde la identificación de riesgos hasta la promoción de una cultura de prevención, buscando que las organizaciones no solo cumplan con las normativas legales, sino que también fomenten un entorno laboral saludable. 
+              
+              p #[b ¡Prepárate para liderar la transformación hacia un entorno laboral seguro y saludable!]
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

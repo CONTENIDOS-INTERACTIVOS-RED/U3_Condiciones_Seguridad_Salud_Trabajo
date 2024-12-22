@@ -1,60 +1,49 @@
 <template lang="pug">
 .curso-main-container.introduccion
   BannerInterno(subTitulo="Introducción")
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    div(style="background-color: #fef7e4 ").mb-4
-      .row.justify-content-center.align-items-center
-        .col-lg
-          .p-4
-            p.mb-0(data-aos="fade-up") En un mundo laboral en constante evolución, la seguridad y salud en el trabajo se han convertido en pilares fundamentales para el desarrollo sostenible de las organizaciones. Reconociendo esta necesidad, el presente proceso formativo se concibe como una herramienta esencial para la formación de profesionales competentes en el ámbito del diseño e implementación de sistema de gestión para la seguridad y salud en el trabajo y evaluación de las condiciones de trabajo seguras. Esta formación está diseñada para proporcionar a los estudiantes los conocimientos y las habilidades necesarios para identificar, evaluar, valorar y controlar riesgos laborales, asegurando así un entorno laboral sano y seguro.
-        .col-lg-auto
-          figure
-            img(src='@/assets/curso/temas/1.png', alt='')
-    p.mb-4 Además, se fomenta la creación de una cultura de prevención que aborde, de manera proactiva, los accidentes y enfermedades laborales, alineándose con las normas técnicas colombianas e internacionales vigentes y los marcos normativos aplicables. Este enfoque no solo se limita a la enseñanza de procedimientos y regulaciones, sino que también promueve las estrategias para que el profesional integre, en su participación, a todos los miembros de la organización, desde la alta dirección hasta los trabajadores de base, en la construcción de entornos laborales seguros. En este sentido, el proceso formativo se convierte en un catalizador para el cambio, empoderando a los estudiantes a liderar iniciativas de transparencia y comunicación que posicionen la seguridad en un lugar central de la estrategia organizacional.
-      br
-      br
-      | #[b La estructura del proceso formativo incluye tres unidades fundamentales:] 
-    .row.justify-content-center.align-items-stretch.mb-5
-      .col-lg-4.col-xl-4.mb-4(data-aos="zoom-in-up")
-        .custom-image-card-2.h-100
-          img.custom-image-card__image(src="@/assets/curso/temas/2.png" alt="")
-          .custom-image-card__text.p-4
-            p.mb-0 El marco normativo y técnico en seguridad y salud en el trabajo en Colombia, que establece el contexto regulatorio y las mejores prácticas. 
-      .col-lg-4.col-xl-4.mb-4(data-aos="zoom-in-up")
-        .custom-image-card-2.h-100
-          img.custom-image-card__image(src="@/assets/curso/temas/3.png" alt="")
-          .custom-image-card__text.p-4
-            p.mb-0 La identificación y evaluación de riesgos laborales, que proporciona herramientas para la detección temprana de peligros. 
-      .col-lg-4.col-xl-4.mb-4(data-aos="zoom-in-up")
-        .custom-image-card-2.h-100
-          img.custom-image-card__image(src="@/assets/curso/temas/4.png" alt="")
-          .custom-image-card__text.p-4
-            p.mb-0 Estrategias para la implementación de un sistema de gestión de seguridad y salud en el trabajo, que guía a los estudiantes en el diseño de programas efectivos que promueven la prevención de riesgos. 
-    .row.justify-content-center.mb-5
-      .col-lg-4.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/5.png', alt='')
-      .col-lg-8
-        .p-4(data-aos="fade-left" style="background-color: #d8f5f5 ").mb-4
-          .row
+  .container.tarjeta.tarjeta--blanca.px-4.px-md-5.pt-4.pt-md-5.mb-5
+
+    .row.mb-5
+      .col-lg-4.order-2
+        figure
+          img(src="@/assets/curso/intro/1.png", data-aos="zoom-in")
+      .col-lg-8.order-1
+        p(data-aos="fade-left") En el contexto actual, la implementación de estrategias efectivas para el Sistema de Gestión de Seguridad y Salud en el Trabajo, se ha convertido en una necesidad imperante, tanto en el sector público como en el privado. En Colombia, la creciente conciencia sobre la importancia del bienestar laboral y la protección de los trabajadores, ha impulsado a las organizaciones para que adopten enfoques proactivos que aseguren un entorno seguro y saludable. La normativa nacional y los estándares internacionales, como la norma ISO 45001, han sido fundamentales en la creación de marcos que guían a las empresas hacia una gestión integral de la seguridad y salud laboral, contribuyendo así al éxito sostenible.
+
+        .bg-color-1.p-4(data-aos="fade-left")
+          .row.align-items-center
             .col-lg-auto
-              img(src="@/assets/curso/temas/6.svg", style="max-width: 90px").mx-auto
+              img(src="@/assets/curso/intro/2.svg", style="max-width: 90px").mx-auto
             .col-lg
-              p.mb-0 Al finalizar este proceso formativo, los participantes no solo estarán equipados para cumplir con las exigencias legales en materia de seguridad y salud en el trabajo, sino que también contribuirán al bienestar integral de los trabajadores en diversos sectores productivos. Serán capaces de implementar programas de formación continua que fomenten la sensibilización sobre la importancia de la prevención, así como de establecer procedimientos de respuesta ante situaciones de emergencia, minimizando así el potencial impacto de cualquier eventualidad.
+              p.mb-0 Esta unidad de aprendizaje tiene como objetivo desarrollar un entendimiento profundo acerca de las estrategias que facilitan la implementación del Sistema de Gestión de Seguridad y Salud en el Trabajo, en el contexto colombiano. 
+
+    p Nos proponemos explorar no solo las características y beneficios que proporciona este sistema, sino también cómo estas estrategias pueden adaptarse a las realidades sectoriales y regionales del país. Desde la identificación de peligros y la evaluación de riesgos, hasta el desarrollo de planes de acción y la promoción de una cultura de seguridad, estas estrategias son esenciales para mejorar la salud ocupacional y reducir la siniestralidad laboral.
+
+    p En la presente unidad se realizarán las siguientes actividades:
+
+    .bg-full-width.bg-fondo-slider
+      .p-4.p-md-5
+        SlyderA(tipo="b").bg-white
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5
+              figure
+                img(src="@/assets/curso/intro/slider-1.png")
+            .col-lg-7
+              h5 Examinar
+              p Examinaremos cómo las organizaciones pueden integrar el sistema de gestión de seguridad y salud en el trabajo de manera efectiva, dentro de sus operaciones. En un país con una diversidad de sectores económicos y una población laboral variada, es crucial que las prácticas de seguridad y salud en el trabajo sean inclusivas y estén alineadas con las particularidades de cada sector. Esta reflexión subraya la importancia de promover un ambiente laboral que no solo cumpla con las normativas, sino que también valore el bienestar de los empleados, como un componente clave del éxito organizacional.
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5
+              figure
+                img(src="@/assets/curso/intro/slider-2.png")
+            .col-lg-7
+              h5 Discutir
+              p Discutiremos sobre el impacto de las estrategias de implementación del Sistema de Gestión de Seguridad y Salud en el Trabajo, en el cumplimiento de objetivos más amplios, como el bienestar social y la calidad de vida de los trabajadores. Las empresas en Colombia, tienen un papel fundamental en la promoción de ambientes laborales seguros y saludables, trascendiendo la mera obligación legal para convertirse en actores comprometidos con el desarrollo social. La revisión de casos prácticos locales nos brindará herramientas para comprender y aplicar efectivamente, estas estrategias en contextos reales.
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5
+              figure
+                img(src="@/assets/curso/intro/slider-3.png")
+            .col-lg-7
+              h5 Organizar
+              p Organizaremos un espacio de reflexión crítica y análisis colaborativo. Se espera que los participantes desarrollen habilidades analíticas y creativas en la formulación de estrategias para la implementación del Sistema de Gestión de Seguridad y Salud en el Trabajo, mediante un enfoque que fomente la mejora continua y la innovación en las prácticas de seguridad y salud laboral. A través de actividades teóricas y prácticas, se incentivará la capacidad de identificar soluciones efectivas y adecuadas a los desafíos específicos, que enfrentan las organizaciones en Colombia.
+
 </template>
-
-<script>
-import BannerInterno from '../components/plantilla/BannerInterno'
-import Muestras from '../components/muestras/Muestras.vue'
-
-export default {
-  name: 'Introduccion',
-  components: {
-    BannerInterno,
-    Muestras,
-  },
-  data: () => ({
-    globalData: global,
-  }),
-}
-</script>
-
-<style lang="sass"></style>

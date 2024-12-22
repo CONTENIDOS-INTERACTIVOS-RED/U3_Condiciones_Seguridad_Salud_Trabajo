@@ -17,19 +17,32 @@
 
 .bg-color
   &-1
-    background-color: #E4FEFE
+    background-color: #F7DBD5
   &-2
-    background-color: #E8EEFD
+    background-color: #FEF7E4
   &-3
-    background-color: #FFF8D5
+    background-color: #D7F8F4
+  &-4
+    background-color: #FEF0CB
+  &-5
+    background-color: #F9F5ED
+  &-6
+    background-color: #E2E9F3
 
+  &-info
+    background-color: #E8EEFD
   &-sintesis
     background-color: #F9F9F9
   &-white
     background-color: #fff
 
-.border-top.color-primario
-  border-top: 5px solid $color-primario !important
+.border-top
+  &.color-primario
+    border-top: 5px solid $color-primario !important
+  &.color-secundario
+    border-top: 5px solid $color-secundario !important
+  &.color-terciario
+    border-top: 5px solid $color-terciario !important
 
 // Full Width Background
 .bg-full-width
@@ -43,13 +56,13 @@
 
 .bg-fondo
   &-1
-    // background-image: url("../assets/bg/bg1.png") !important
+    background-image: url("../assets/bg/bg1.png") !important
     background-position: top
   &-2
     // background-image: url("../assets/bg/bg2.png") !important
     background-position: bottom
   &-slider
-    // background-image: url("../assets/bg/bg-slider.png") !important
+    background-image: url("../assets/bg/bg-slider.png") !important
     background-position: bottom
 
 // Variables
@@ -84,7 +97,7 @@ $custom-card-img-height: 322px
   &:hover
     transform: scale(1.01)
   &__image
-    height: 224px
+    height: 277px
     object-fit: cover
 
 
@@ -173,3 +186,22 @@ $custom-card-img-height: 322px
 
   span
     font-size: 0.85em
+
+.large
+  .linea-tiempo-d__item__content__title
+    padding: 28px
+    border-radius: 5px 5px 0px 0px
+    background-color: lighten($color-primario, 30%)
+  .linea-tiempo-d__item__content__title.active
+    background-color: $color-primario !important
+  .linea-tiempo-d__item__content__slot
+    border-radius: 0px 0px 5px 5px
+    background-color: lighten($color-primario, 37%) !important
+  .linea-tiempo-d__item__number
+    background-color: lighten($color-primario, 30%)
+  .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+    background-color: $color-primario !important
+  .linea-tiempo-d__item__dots:after
+    border-left: 0px
+  .fa-angle-up, .fa-angle-down
+    display: block

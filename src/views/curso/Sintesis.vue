@@ -1,87 +1,10 @@
 <template lang="pug">
   .curso-main-container.creditos-vista
-    BannerInterno(icono="far fa-registered" titulo="Créditos")
+    BannerInterno(subTitulo="SÍNTESIS")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      .creditos.mb-4.mb-md-5
-        .creditos__item(
-          v-for="(creditoObj, index) of creditosData"
-          :key="'credito-'+index"
-          :class="index != creditosData.length -1 ? 'mb-4' : ''" 
-        )
-          .creditos__titulo {{creditoObj.titulo}}
-          table
-            tbody
-              tr(
-                v-for="(item, idx) of creditoObj.autores" 
-                :key="'autor-'+idx"
-              )
-                td.text-bold(colspan='2' v-html="renderText(item.nombre)")
-                td(colspan='2' v-html="renderText(item.cargo)")
-                td(colspan='3' v-html="renderText(item.centro)")
-      .row.mb-4.mb-md-5
-        .col-md-6.mb-4.mb-md-0
-          .tarjeta.credito.p-3.text-center.h-100
-            img.d-inline-block(src="@/assets/template/creditos-img.svg" style="width: 70px")
-            p(v-html="creditosAdicionales.imagenes")
-        .col-md-6
-          .tarjeta.credito.p-3.text-center.h-100
-            img.d-inline-block(src="@/assets/template/creditos-cc.svg" style="width: 70px;")
-            p.mb-0(v-html="creditosAdicionales.creativeCommons")
-  
-      Footer(all-round)
+      p(data-aos="fade-up").mb-5 La Unidad 3: Estrategias para la implementación de Sistemas de Gestión de Seguridad y Salud en el Trabajo explora las herramientas clave para crear entornos laborales seguros y saludables. A partir de un enfoque integral, se analiza la planificación, diagnóstico, y ejecución de sistemas que cumplan con normativas nacionales como el Decreto 1072 y estándares internacionales como la ISO 45001. Además, se destacan estrategias para fomentar una cultura de seguridad, con énfasis en la capacitación continua y la participación activa de todos los niveles de la organización. Esta unidad sienta las bases para la gestión efectiva de la seguridad y salud laboral, impulsando el bienestar de los trabajadores y la sostenibilidad organizacional.
+      .row.justify-content-center
+        .col-lg-12.mb-5
+          figure.bg-color-sintesis.p-5.brounded
+            img(src='@/assets/curso/sintesis.svg', alt='', data-aos="zoom-in")
 </template>
-<script>
-export default {
-  name: 'Creditos',
-  computed: {
-    creditosData() {
-      return this.$config.creditos
-    },
-    creditosAdicionales() {
-      return this.$config.creditosAdicionales
-    },
-  },
-  methods: {
-    renderText(textObj) {
-      let newText = ''
-      if (Array.isArray(textObj)) {
-        textObj.forEach((texto, index) => {
-          newText += (index ? '<br/>' : '') + texto
-        })
-      } else {
-        newText += textObj
-      }
-      return newText
-    },
-  },
-}
-</script>
-
-<style lang="sass">
-.creditos-vista
-  .tarjeta.credito
-    background-color: $color-sistema-d
-
-.creditos
-  color: $color-sistema-b
-  overflow-x: auto
-
-  &__item
-    min-width: 490px
-
-  p
-    line-height: 1.3em
-    margin-bottom: 0
-    color: $color-sistema-b
-
-  &__titulo
-    font-weight: $base-bold-font-weight
-    background-color: $color-sistema-d
-    padding: 5px 10px
-    border-top-radius: $base-border-radius
-    border-top-left-radius: $base-border-radius
-    border-top-right-radius: $base-border-radius
-  table
-    td, th
-      border-color: $color-sistema-d
-</style>
