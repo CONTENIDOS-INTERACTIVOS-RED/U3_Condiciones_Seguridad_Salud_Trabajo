@@ -238,7 +238,7 @@
             TarjetaAudio.color-primario.bg-color-white.mb-3(
               texto="Creación de un plan de trabajo"
               tiempo
-              :audio="require('../../assets/curso/podcast/podcast1.mp3')"
+              :audio="require('../../assets/curso/podcast/Podcast_1.mp3')"
             )
           .col-lg-5
             figure
