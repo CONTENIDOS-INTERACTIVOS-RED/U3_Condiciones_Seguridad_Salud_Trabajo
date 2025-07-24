@@ -112,22 +112,35 @@
                 img(src="@/assets/curso/tema1/slider-1.png")
             .col-lg-7
               h5 Diagnóstico inicial
-              p Realizar un diagnóstico inicial no solo es fundamental, sino que se convierte en la piedra angular sobre la cual se fundamenta  el desarrollo de un sistema que sea tanto eficiente como plenamente alineado a las normativas y regulaciones vigentes que rigen esta materia.
+              p Realizar un diagnóstico inicial no solo es fundamental, sino que se convierte en la piedra angular sobre la cual se fundamenta el desarrollo de un sistema que sea tanto eficiente como plenamente alineado a las normativas y regulaciones vigentes que rigen esta materia.
           .row.align-items-center.p-4.p-md-5
             .col-lg-5
               figure
                 img(src="@/assets/curso/tema1/slider-2.png")
             .col-lg-7
-              h5 Discutir
-              p Discutiremos sobre el impacto de las estrategias de implementación del Sistema de Gestión de Seguridad y Salud en el Trabajo, en el cumplimiento de objetivos más amplios, como el bienestar social y la calidad de vida de los trabajadores. Las empresas en Colombia, tienen un papel fundamental en la promoción de ambientes laborales seguros y saludables, trascendiendo la mera obligación legal para convertirse en actores comprometidos con el desarrollo social. La revisión de casos prácticos locales nos brindará herramientas para comprender y aplicar efectivamente, estas estrategias en contextos reales.
+              h5 Evaluación
+              p Es importante ejecutar una evaluación que debe incluir un análisis pormenorizado de la historia de la organización en cuanto a incidentes laborales. Esto implica prestar especial atención no solo a la frecuencia y gravedad de los accidentes que han ocurrido en el pasado, sino también a la identificación de la prevalencia de enfermedades ocupacionales dentro de la empresa. A través de esta revisión exhaustiva, se obtendrá una visión clara y comprensible de los riesgos existentes en el entorno laboral, así como de los problemas recurrentes que requieren una atención prioritaria y estrategias de intervención efectivas.
           .row.align-items-center.p-4.p-md-5
             .col-lg-5
               figure
                 img(src="@/assets/curso/tema1/slider-3.png")
             .col-lg-7
-              h5 Organizar
-              p Organizaremos un espacio de reflexión crítica y análisis colaborativo. Se espera que los participantes desarrollen habilidades analíticas y creativas en la formulación de estrategias para la implementación del Sistema de Gestión de Seguridad y Salud en el Trabajo, mediante un enfoque que fomente la mejora continua y la innovación en las prácticas de seguridad y salud laboral. A través de actividades teóricas y prácticas, se incentivará la capacidad de identificar soluciones efectivas y adecuadas a los desafíos específicos, que enfrentan las organizaciones en Colombia.
-
+              h5 Revisión rigurosa
+              p Es necesario llevar a cabo una revisión rigurosa del cumplimiento de las normativas vigentes, destacando la norma ISO 45001, el Decreto 1072 del 2015 y la Resolución 0312 del 2019. Comparar el desempeño actual de la empresa con los requisitos estipulados en estas regulaciones permitirá identificar, de manera precisa, las brechas existentes, así como las áreas que necesiten mejoras significativas, con el fin de alinearse de forma más efectiva con los estándares exigidos por la legislación. Este proceso de comparación no solo pone de manifiesto las deficiencias, sino que también proporciona un marco para la planificación de acciones correctivas.
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5
+              figure
+                img(src="@/assets/curso/tema1/slider-4.png")
+            .col-lg-7
+              h5 Recopilación de datos
+              p Recopilar datos es un aspecto crucial en este proceso diagnóstico. Se debe reunir información relevante proveniente de diversas fuentes, tales como registros de incidentes laborales, reportes de enfermedades ocupacionales, encuestas de clima laboral y auditorías internas. Esta información no solo servirá para identificar áreas críticas que requieran una atención inmediata, sino que también proporcionará la base necesaria para establecer indicadores de desempeño que permitan evaluar de manera continua y objetiva la efectividad del SGSST una vez que este haya sido implementado. Asimismo, estos indicadores facilitarán la identificación de tendencias, lo que permitirá a la organización realizar ajustes y encontrar oportunidades para la mejora continua.
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5
+              figure
+                img(src="@/assets/curso/tema1/slider-5.png")
+            .col-lg-7
+              h5 Evaluación y diagnóstico
+              p La ejecución de una evaluación y un diagnóstico exhaustivos de la situación actual, en materia de seguridad y salud en el trabajo, es de vital importancia. Esto no solo asegurará que el sistema que se diseñe y se implemente sea efectivo en la gestión de los riesgos, sino que también garantice su sostenibilidad a largo plazo. Al adoptar un enfoque proactivo, la organización no solo estará cumpliendo con la normativa vigente, sino que además fomentará la creación de un entorno laboral más seguro y saludable, beneficiando así a todos sus colaboradores y promoviendo su bienestar integral. Esta inversión en la seguridad y salud laboral también puede tener un impacto positivo en la productividad de la organización, generando un círculo virtuoso en el que el bienestar de los empleados y la eficiencia operativa van de la mano.
     h4.mb-5(data-aos="fade-right") C. Identificación y evaluación de riesgos
 
     .bg-full-width.bg-fondo-1
@@ -152,7 +165,7 @@
             .custom-image-card-2.h-100
               img.custom-image-card__image(src="@/assets/curso/tema1/9.png" alt="")
               .custom-image-card__text.p-4
-                h5.mb-2.text-center Técnicas creativas	
+                h5.mb-2.text-center Abarcar
                 p.mb-0 Factores psicosociales como el estrés laboral y las relaciones interpersonales; aspectos químicos relacionados con la exposición a sustancias químicas, agentes biológicos y factores organizacionales, que implican la cultura empresarial y la estructura jerárquica.
           .col-lg-6.col-xl-6.mb-4(data-aos="zoom-in-down")
             .custom-image-card-2.h-100
@@ -174,7 +187,7 @@
             p Proporciona un marco normativo que establece directrices claras y precisas, sobre la gestión del riesgo en el ámbito laboral. Este decreto pone énfasis en la necesidad de considerar una variedad de variables que pueden afectar la salud y seguridad de los trabajadores, promoviendo una visión holística en la gestión de riesgos. La normativa se centra en la prevención y control de riesgos, impulsando a las organizaciones a ser proactivas en la identificación de peligros antes de que se materialicen en accidentes o enfermedades laborales.
         
           
-      .tabs-content.border.px-4.p-md-5.py-3(titulo="Decreto 1072 del 2015" :icon="require('@/assets/bullets/icon-tab-c.svg')" )
+      .tabs-content.border.px-4.p-md-5.py-3(titulo="Resolución 0312 del 2019" :icon="require('@/assets/bullets/icon-tab-c.svg')" )
         .row
           .col-md-6.col-lg-5.col-xl-4
             figure(data-aos="zoom-in")
@@ -311,7 +324,7 @@
               img(src='@/assets/curso/tema1/24.png', alt='')
           .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0
             h4 Monitoreo y revisión constante
-            p Complementa las disposiciones y añade un enfoque más detallado al definir criterios específicos para la identificación de riesgos, indicando que la participación activa de los trabajadores en este proceso es indispensable para alcanzar una comprensión más completa y precisa de los peligros presentes en el entorno laboral. Este involucramiento no solo permite que los trabajadores compartan su experiencia y conocimiento de las condiciones de trabajo, sino que también facilita la identificación de peligros que podrían pasar desapercibidos en un análisis superficial, contribuyendo a una evaluación más efectiva.
+            p El monitoreo y la revisión constante del plan de emergencias, junto con el aprendizaje de los incidentes ocurridos, son fundamentales para mejorar continuamente el SGSST. Así, se puede garantizar que las medidas adoptadas sean efectivas y se ajusten a las necesidades cambiantes de la organización y del entorno en el que opera.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
@@ -420,7 +433,7 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.iso.org/standard /63787.html" target="_blank" rel="noopener noreferrer") Organización Internacional de Normalización. (2018). Sistemas de gestión de seguridad y salud en el trabajo—Requisitos con orientación para su uso (ISO 45001)
+              a(href="https://www.teczamora.mx/sgi/documentos/sgi/normas/Norma_ISO_45001_2018.pdf" target="_blank" rel="noopener noreferrer") Organización Internacional de Normalización. (2018). Sistemas de gestión de seguridad y salud en el trabajo—Requisitos con orientación para su uso (ISO 45001)
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
               a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/225263" target="_blank" rel="noopener noreferrer") Cortés, J. M. (2018). Sistemas de gestión de la seguridad y salud en el trabajo (ISO 45001:2018): (1 ed.). Editorial ICB. 
